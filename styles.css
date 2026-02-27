@@ -1,21 +1,24 @@
 body {
+    background-color: aliceblue;
+    background-image: url("black.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
-font-family: "Ariel", sans-serif;
+    font-family: Arial, sans-serif;
+color: #fafafa; 
 
-color: #333;
-
-background-color: #f9f9f9;
-
-margin: 0;
+    margin: 0;
 
 padding: 0;
 
 line-height: 1.6;
 
+
 }
 header {
 
-background-color: #af4c4c;
+background-color: #007BFF;
 
 color: white;
 
@@ -45,7 +48,7 @@ margin: 0 10px;
 
 
 nav a:hover {
-
+color: #ffc107;
 text-decoration: underline;
 
 }
@@ -73,8 +76,7 @@ margin: 20px 0;
 }
 footer {
 
-background-color: #333;
-
+background-color:#0056b3;
 color: white;
 
 text-align: center;
@@ -97,7 +99,7 @@ font-size: 1.1em;
 
 a {
 
-color: #af4c4c;
+color: #007BFF;
 
 text-decoration: none;
 
@@ -118,7 +120,7 @@ border-radius: 10px;
 }
 main a[href^="mailto:"] {
 
-color: #ff5722;
+color: #ff4500;
 
 font-weight: bold;
 
